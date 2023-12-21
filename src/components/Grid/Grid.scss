@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  .grid-item {
+    margin: 1rem auto;
+    align-self: center;
+  }
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 1500px) {
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+}

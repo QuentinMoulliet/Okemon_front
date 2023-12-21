@@ -1,0 +1,13 @@
+@use 'reset';
+@use 'variables' as v;
+
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Comic Neue', cursive;
+}

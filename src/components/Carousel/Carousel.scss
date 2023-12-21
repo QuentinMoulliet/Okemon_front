@@ -1,0 +1,13 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  .carousel_card {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+  }
+}

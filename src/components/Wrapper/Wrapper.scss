@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: var(--color-secondary);
+  background: linear-gradient(
+    146deg,
+    var(--color-secondary) 25%,
+    rgba(88, 89, 89, 0.649) 53%,
+    var(--color-secondary) 75%
+  );
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: 12px 12px 20px var(--color-secondary);
+}

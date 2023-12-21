@@ -1,0 +1,39 @@
+.collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+@media (min-width: 1080px) {
+  .collection {
+    flex-direction: row;
+    margin-inline: 1rem;
+    align-items: flex-start;
+  }
+}
+
+.collection_users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user_collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+
+  .user_collection-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    .user_collection-name {
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  height: 3rem;
+  width: 100%;
+  border-top: 1px solid var(--color-secondary);
+
+  box-shadow: 0px 0px 20px var(--color-secondary);
+  background-color: var(--color-primary);
+  background: linear-gradient(
+    146deg,
+    var(--color-secondary) 20%,
+    var(--color-background) 70%,
+    var(--color-primary) 100%
+  );
+
+  display: flex;
+  align-items: center;
+
+  .footer-links {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10%;
+    gap: 1rem;
+  }
+}

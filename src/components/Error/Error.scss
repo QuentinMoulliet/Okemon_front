@@ -1,0 +1,21 @@
+.error_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem;
+
+  .error_image {
+    width: 300px;
+  }
+
+  .error_message {
+    font-size: 2rem;
+    margin-block: 2rem;
+
+    .error_number {
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+  }
+}
