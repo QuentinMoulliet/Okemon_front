@@ -51,6 +51,7 @@ const LoginForm = ({ email, password, changeField, handleLogin, close }) => {
   return (
     <>
       <h2 className="form_title">Connexion</h2>
+      <h4>Si la connexion ne fonctionne pas, le serveur est OFFLINE</h4>
       <form className="modal_form" onSubmit={handleSubmit}>
         <Field
           name="email"

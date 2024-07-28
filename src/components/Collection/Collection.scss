@@ -19,6 +19,13 @@
   gap: 1rem;
 }
 
+.collection_users span {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 2rem;
+  color: rgb(255, 113, 113);
+}
+
 .user_collection {
   display: flex;
   flex-direction: column;

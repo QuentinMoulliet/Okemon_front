@@ -188,6 +188,7 @@ const Collection = ({ type }) => {
   return (
     <div className={type === 'cards' ? 'collection' : 'collection_users'}>
       <Wrapper size={type === 'cards' ? wrapperSize : '95%'}>
+      <h4>Si aucun utilisateur ne s'affiche, le serveur est OFFLINE.</h4>
         <Search type={type} />
       </Wrapper>
       <Grid list={list} type={type} />

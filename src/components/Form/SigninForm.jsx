@@ -147,6 +147,7 @@ const SigninForm = ({
   return (
     <>
       <h2 className="form_title">Inscription</h2>
+      <h4>Si l'incription ne fonctionne pas, le serveur est OFFLINE</h4>
       <form className="modal_form signin" onSubmit={handleSubmit}>
         <Field
           name="nickname"
